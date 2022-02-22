@@ -1,0 +1,119 @@
+
+body
+{
+    width: 1200px;  /*La página web tendrá un ancho fijo de 1200px*/
+    margin: auto;   /*Los márgenes de la página web son automáticos, depende de cómo esté abierta la ventana*/
+   
+}
+
+.flex_row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_col
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_grow
+{
+    flex-grow: 1;
+}
+
+#header_top{
+    background-color: black;
+    height: 160px;
+}
+
+.logo{
+    width: 600px;
+    height: 100px;
+}
+
+h5{
+    color: white;
+    align-items: center;
+    margin-right: 150px;
+    margin-top: 70px;
+    font-size: 16px;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+#centro{
+    
+    background-color:#650556;
+}
+
+.cartagena {
+    width: 600px;
+    height: 500px;
+    margin-left:300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+h2{
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+width: 200px;
+height: 50px;
+align-items: center;
+text-align: center;
+margin-left: 500px;
+margin-bottom: 20px;
+}
+
+.brazos{
+    margin-left: 300px;
+}
+
+#comida{
+    margin-left: 300px;
+}
+body{
+    background: #8E97A0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+footer{
+    background: #000000 ;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+}
+
+
+footer{
+    background: #000000;
+    color: white;
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+
+.flex_item_centrados
+{
+    align-items: center;
+}
+
+.imagen40x40{
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+
